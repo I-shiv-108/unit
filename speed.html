@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(207, 58, 4); color:white;">
+    <h1 align="center">Speed Conversion</h1>
+    <a href="http://127.0.0.1:3000/index.html">
+        <form align="left">
+            <input type="button" value="Back" style="background-color: rgb(245, 162, 37); border-radius: 10px; height: 30px; width: 60px;">
+        </form>
+    </a>
+    <br>
+    <div style="display: flex; justify-content: center;">
+
+        <select id="speedType1" style="height: 60px; width: 200px; text-align: center; font-size: larger; border-radius: 10px;background-color: rgb(245, 110, 0);">
+            <option value="Meter/Second">Meter/Second(m/s)</option>
+            <option value="Kilometer/Hour">Kilometer/Hour(km/h)</option>
+            <option value="Inch/Second">Inch/Second(in/s)</optiopn>
+            <option value="Kilometer/Second">Kilometer/Second(km/s)</option>
+            <option value="Mile/Hour">Mile/Hour(mph)</option>
+            </select>
+           
+    <br>
+    <br>
+    <span style="margin-left: 50px; margin-right: 50px ;font-size: 40px;">TO</span>
+        <select id="speedType2" style="height: 60px; width: 200px; text-align: center; font-size: larger; border-radius: 10px; background-color: rgb(245, 110, 0);">
+            <option value="Meter/Second">Meter/Second(m/s)</option>
+            <option value="Kilometer/Hour">Kilometer/Hour(km/h)</option>
+            <option value="Inch/Second">Inch/Second(in/s)</optiopn>
+            <option value="Kilometer/Second">Kilometer/Second(km/s)</option>
+            <option value="Mile/Hour">Mile/Hour(mph)</option>
+            </select>
+    </div>
+
+            <div style="margin-top: 30px;"></div>
+    <div style="display: flex; justify-content: center; ">
+        <input type="number" id="speed" placeholder="Enter Speed" style="width: 192px ; height: 60px; font-size:20px; margin-top: 15px; background-color: rgb(245, 110, 0);border-radius: 10px;">
+
+        <span style="font-size:60px; margin-top: 12px; margin-left: 60px; margin-right: 60px;">=</span>
+
+        <input style="background-color:rgb(245, 110, 0); height: 60px ; width: 192px; font-size: 24px; margin-top:18px; display: flex ; align-items: center; border-radius: 10px; color: black;" id="result" placeholder="Result"></div>
+    </div>
+        
+    
+
+    <script src="myscriptspeed.js"></script>
+    
+</body>
+</html>

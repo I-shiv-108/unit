@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body style="background-color: rgb(0, 100, 8); color:white;">
+    <h1 align="center"> Length Conversion</h1>
+    <a href="http://127.0.0.1:3000/index.html">
+        <form align="left">
+            <input  type="button" value="Back" style="background-color: rgb(81, 255, 0); border-radius: 10px; height: 30px; width: 60px;">
+        </form>
+    </a> 
+    <br>
+    <div style="display: flex; justify-content: center;">
+     <select id="LengthType1" style="height: 60px; width: 200px; text-align: center; font-size: larger; border-radius: 10px;background-color: rgb(0, 245, 82); 
+     " >
+        <option value="Millimeter">Millimeter(mm)</option>
+        <option value="Centimeter">Centimeter(cm)</option>
+        <option value="Decimeter">Decimeter(dm)</option>
+        <option value="Meter">Meter(m)</option>
+        <option value="Kilometer">Kilometer(km)</option>
+        <option value="Inch">Inch(in)</option>
+        <option value="Foot">Foot(ft)</option>
+        <option value="Yard">Yard(yd)</option>
+        <option value="Mile">Mile(mi)</option>
+     </select>
+     <span style="margin-left: 50px; margin-right: 50px ;font-size: 40px;">TO</span>
+        <select id="LengthType2" style="height: 60px; width: 200px; text-align: center; font-size: larger; border-radius: 10px; background-color: rgb(0, 245, 82);">
+            <option value="Millimeter">Millimeter(mm)</option>
+            <option value="Centimeter">Centimeter(cm)</option>
+            <option value="Decimeter">Decimeter(dm)</option>
+            <option value="Meter">Meter(m)</option>
+            <option value="Kilometer">kilometer(km)</option>
+            <option value="Inch">Inch(in)</option>
+            <option value="Foot">Foot(ft)</option>
+            <option value="Yard">Yard(yd)</option>
+            <option value="Mile">Mile(mi)</option>
+
+        </select>
+    </div>
+    <div style="margin-top: 30px;"></div>
+    <div style="display: flex; justify-content: center; ">
+    <input style="width: 192px ; height: 60px; font-size:20px; margin-top: 15px; background-color: rgb(0, 245, 82);border-radius: 10px;" type="number" id="input" placeholder="Enter Length">
+    <span style="font-size:60px; margin-top: 12px; margin-left: 60px; margin-right: 60px;">=</span>
+         <input style="background-color: rgb(0, 245, 82); height: 60px ; width: 192px; font-size: 24px; margin-top:18px; display: flex ; align-items: center; border-radius: 10px; color: black;" id="result" placeholder="Result" readonly></input>
+    </div>
+    <script src="myscriptlength.js"></script>
+    
+    
+       
+  
+    
+</body>
+</html>
